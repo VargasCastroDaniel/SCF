@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upd_Medicamentos-SCF</title>
+    <link rel="stylesheet" href="./estilo_formularios.css">
+</head>
+<body>
+    <div class="formulario">
+        <h3>Modificar un Medicamento</h3>
+        <form action="Upd_Medicamentos.php" method="GET">
+            <div>
+                <label for="Nombre">Nombre:</label>
+                <input id="Nombre" name="Nombre" type="text" maxlength="30">
+            </div>
+            <div>
+                <label for="NombreNuevo">Nombre nuevo:</label>
+                <input id="NombreNuevo" name="NombreNuevo" type="text" maxlength="30">
+            </div>
+            <div>
+                <label for="CantidadDisponible">Cantidad Disponible:</label>
+                <input id="CantidadDisponible" name="CantidadDisponible" type="number">
+            </div>
+            <div>
+                <label for="FechaExpiracion">Fecha de Expiracion (Formato yyyy-mm-dd):</label>
+                <input id="FechaExpiracion" name="FechaExpiracion" type="text">
+            </div>
+            <div>
+                <label for="Descripcion">Descripcion:</label>
+                <input id="Descripcion" name="Descripcion" type="text" maxlength="300">
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+        <div class="Regresar">
+            <input type="button" value="Regresar" onclick="window.location='vis_general.html'">
+        </div>
+    </div>
+</body>
+</html>

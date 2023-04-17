@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sel_V_Ordeño-SCF</title>
+    <link rel="stylesheet" href="./estilo_formularios.css">
+</head>
+<body>
+    <div class="formulario">
+        <h3>Consultar una relacion V_Ordeño</h3>
+        <form action="Sel_V_Ordeño.php" method="GET">
+            <div>
+                <label for="FechaVenta">Fecha de la venta (Formato yyyy-mm-dd):</label>
+                <input id="FechaVenta" name="FechaVenta" type="text">
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+        <div class="Regresar">
+            <input type="button" value="Regresar" onclick="window.location='vis_general.html'">
+        </div>
+    </div>
+</body>
+</html>

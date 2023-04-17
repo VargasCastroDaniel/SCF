@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upd_Alimentaciones-SCF</title>
+    <link rel="stylesheet" href="./estilo_formularios.css">
+</head>
+<body>
+    <div class="formulario">
+        <h3>Modificar una Alimentacion</h3>
+        <form action="Upd_Alimentaciones.php" method="GET">
+            <div>
+                <label for="FechaHora">Fecha y Hora (Formato yyyy-mm-dd hh:mn:ss):</label>
+                <input id="FechaHora" name="FechaHora" type="text">
+            </div>
+            <div>
+                <label for="FechaHoraNueva">Fecha y Hora Nueva (Formato yyyy-mm-dd hh:mn:ss):</label>
+                <input id="FechaHoraNueva" name="FechaHoraNueva" type="text">
+            </div>
+            <div>
+                <label for="Tipo">Tipo:</label>
+                <input id="Tipo" name="Tipo" type="text" maxlength="20">
+            </div>
+            <div>
+                <label for="Descripcion">Descripcion:</label>
+                <input id="Descripcion" name="Descripcion" type="text" maxlength="300">
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+        <div class="Regresar">
+            <input type="button" value="Regresar" onclick="window.location='vis_general.html'">
+        </div>
+    </div>
+</body>
+</html>

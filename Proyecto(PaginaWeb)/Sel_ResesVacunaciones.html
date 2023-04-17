@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sel_ResesVacunaciones-SCF</title>
+    <link rel="stylesheet" href="./estilo_formularios.css">
+</head>
+<body>
+    <div class="formulario">
+        <h3>Consultar una Res-Vacunacion</h3>
+        <form action="Sel_ResesVacunaciones.php" method="GET">
+            <div>
+                <label for="IdRes">Id Res:</label>
+                <input id="IdRes" name="IdRes" type="number">
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+        <div class="Regresar">
+            <input type="button" value="Regresar" onclick="window.location='vis_general.html'">
+        </div>
+    </div>
+</body>
+</html>
