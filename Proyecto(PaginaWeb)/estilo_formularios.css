@@ -1,0 +1,58 @@
+.capa
+{
+    border-width: 10px; 
+    border-style: groove; 
+    border-color: rgba(122, 14, 14, 0.842); 
+    width: 50%; 
+    padding: 20px; 
+    margin: 25px;
+    border-top-left-radius: 20px;
+}
+
+li
+{
+    margin-left: 15px;
+}
+
+#encabezado_principal
+{
+    color: brown;
+}
+
+#encabezado_principal:hover
+{
+    color: chartreuse;
+    border: 1px dashed gray ;
+}
+
+#encabezado_principal:hover
+{
+    color: chartreuse;
+    border: 1px dashed gray ;
+}
+
+td
+{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.formulario
+{
+    border-width: 5px; 
+    border-style: groove; 
+    border-color: rgba(48, 39, 172, 0.842); 
+    display: inline-block;
+    padding: 20px; 
+    margin: 25px;
+    border-radius: 20px;
+
+}
+
+form div
+{
+    margin-bottom: 30px ;
+    border-bottom: 3px solid rgba(211, 211, 211, 0.431);
+    padding-bottom: 10px;
+}

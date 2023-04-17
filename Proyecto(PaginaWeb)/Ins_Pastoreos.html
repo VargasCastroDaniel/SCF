@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ins_Pastoreos-SCF</title>
+    <link rel="stylesheet" href="./estilo_formularios.css">
+</head>
+<body>
+    <div class="formulario">
+        <h3>Insertar un Pastoreo</h3>
+        <form action="Ins_Pastoreos.php" method="GET">
+            <div>
+                <label for="NumeroLote">NumeroLote:</label>
+                <input id="NumeroLote" name="NumeroLote" type="number">
+            </div>
+            <div>
+                <label for="CantidadReses">CantidadReses:</label>
+                <input id="CantidadReses" name="CantidadReses" type="number">
+            </div>
+            <div>
+                <label for="FechaHoraInicio">Fecha y Hora inicio (Formato yyyy-mm-dd hh:mn:ss):</label>
+                <input id="FechaHoraInicio" name="FechaHoraInicio" type="text">
+            </div>
+            <div>
+                <label for="FechaHoraFinal">Fecha y Hora final (Formato yyyy-mm-dd hh:mn:ss):</label>
+                <input id="FechaHoraFinal" name="FechaHoraFinal" type="text">
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+        <div class="Regresar">
+            <input type="button" value="Regresar" onclick="window.location='vis_general.html'">
+        </div>
+    </div>
+</body>
+</html>

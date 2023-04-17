@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ins_Trabajador-SCF</title>
+    <link rel="stylesheet" href="./estilo_formularios.css">
+</head>
+<body>
+    <div class="formulario">
+        <h3>Insertar un Trabajador</h3>
+        <form action="Ins_Trabajadores.php" method="GET">
+            <div>
+                <label for="Cedula">Cedula:</label>
+                <input id="Cedula" name="cedula" type="text" maxlength="11">
+            </div>
+            <div>
+                <label for="Nombre">Nombre:</label>
+                <input id="Nombre" name="name" type="text" maxlength="30">
+            </div>
+            <div>
+                <label for="Apellido1">Apellido1:</label>
+                <input id="Apellido1" name="apellido1" type="text" maxlength="30">
+            </div>
+            <div>
+                <label for="Apellido2">Apellido2:</label>
+                <input id="Apellido2" name="apellido2" type="text" maxlength="30">
+            </div>
+            <div>
+                <label for="Telefono">Telefono:</label>
+                <input id="Telefono" name="Telefono" type="text" maxlength="9">
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+        <div class="Regresar">
+            <input type="button" value="Regresar" onclick="window.location='vis_general.html'">
+        </div>
+    </div>
+</body>
+</html>

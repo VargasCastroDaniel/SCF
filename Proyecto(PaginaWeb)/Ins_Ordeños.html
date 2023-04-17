@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ins_Ordeños-SCF</title>
+    <link rel="stylesheet" href="./estilo_formularios.css">
+</head>
+<body>
+    <div class="formulario">
+        <h3>Insertar un Ordeño</h3>
+        <form action="Ins_Ordeños.php" method="GET">
+            <div>
+                <label for="FechaHora">Fecha y Hora (Formato yyyy-mm-dd hh:mn:ss):</label>
+                <input id="FechaHora" name="FechaHora" type="text">
+            </div>
+            <div>
+                <label for="LitrosLeche">LitrosLeche:</label>
+                <input id="LitrosLeche" name="LitrosLeche" type="number">
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+        <div class="Regresar">
+            <input type="button" value="Regresar" onclick="window.location='vis_general.html'">
+        </div>
+    </div>
+</body>
+</html>

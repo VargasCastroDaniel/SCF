@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ins_Reses-SCF</title>
+    <link rel="stylesheet" href="./estilo_formularios.css">
+</head>
+<body>
+    <div class="formulario">
+        <h3>Insertar una Res</h3>
+        <form action="Ins_Reses.php" method="GET">
+            <div>
+                <label for="IdRes">Id Res:</label>
+                <input id="IdRes" name="IdRes" type="number">
+            </div>
+            <div>
+                <label for="Fierro">Fierro:</label>
+                <input id="Fierro" name="Fierro" type="text" maxlength="3">
+            </div>
+            <div>
+                <label for="Genero">Genero:</label>
+                <input id="Genero" name="Genero" type="text" maxlength="1">
+            </div>
+            <div>
+                <label for="Raza">Raza:</label>
+                <input id="Raza" name="Raza" type="text" maxlength="10">
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+        <div class="Regresar">
+            <input type="button" value="Regresar" onclick="window.location='vis_general.html'">
+        </div>
+    </div>
+</body>
+</html>

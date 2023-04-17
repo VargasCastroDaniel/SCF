@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ins_T_Vacunacines-SCF</title>
+    <link rel="stylesheet" href="./estilo_formularios.css">
+</head>
+<body>
+    <div class="formulario">
+        <h3>Insertar una relacion T_Vacunaciones</h3>
+        <form action="Ins_T_Vac.php" method="GET">
+            <div>
+                <label for="Cedula">Cedula:</label>
+                <input id="Cedula" name="Cedula" type="text" maxlength="11">
+            </div>
+            <div>
+                <label for="FH_Vacunaciones">Fecha y Hora de la Vacunacion (Formato yyyy-mm-dd hh:mn:ss):</label>
+                <input id="FH_Vacunaciones" name="FH_Vacunaciones" type="text">
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+        <div class="Regresar">
+            <input type="button" value="Regresar" onclick="window.location='vis_general.html'">
+        </div>
+    </div>
+</body>
+</html>

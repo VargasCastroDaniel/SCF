@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ins_Ventas-SCF</title>
+    <link rel="stylesheet" href="./estilo_formularios.css">
+</head>
+<body>
+    <div class="formulario">
+        <h3>Insertar una Venta</h3>
+        <form action="Ins_Ventas.php" method="GET">
+            <div>
+                <label for="Fecha">Fecha (Formato yyyy-mm-dd):</label>
+                <input id="Fecha" name="Fecha" type="text">
+            </div>
+            <div>
+                <label for="TotalLitros">TotalLitros:</label>
+                <input id="TotalLitros" name="TotalLitros" type="number">
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+        <div class="Regresar">
+            <input type="button" value="Regresar" onclick="window.location='vis_general.html'">
+        </div>
+    </div>
+</body>
+</html>
